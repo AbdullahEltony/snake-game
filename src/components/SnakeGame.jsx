@@ -8,7 +8,7 @@ import { getRandomFood } from "../utils/getRandomFood";
 const initialState = { 
 	food: getRandomFood(), 
 	direction: "RIGHT", 
-	speed: 2000, 
+	speed: 200, 
 	route: "menu", 
 	snakeDots: [ 
 		[0, 0], 
